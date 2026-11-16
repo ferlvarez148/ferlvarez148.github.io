@@ -1,0 +1,35 @@
+/* Estado 1: Enlace no visitado (:link) */
+a:link {
+    color: #0066cc; 
+    background-color: #e6f2ff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+/* Estado 2: Enlace ya visitado (:visited) */
+a:visited {
+    color: #660066; 
+    background-color: #f2e6f2;
+}
+
+/* Estado 3: Al pasar el ratón por encima (:hover) */
+a:hover {
+    color: #ff6600; 
+    background-color: #fff0e6;
+    text-decoration: underline;
+}
+
+/* Estado 4: Cuando el enlace tiene el foco por teclado (:focus) */
+a:focus {
+    color: #006600; 
+    background-color: #e6ffe6;
+    outline: 2px dashed #006600; /* Línea discontinua para notar el foco del tabulador */
+}
+
+/* Estado 5: Cuando se hace clic sobre él (:active) */
+a:active {
+    color: #cc0000; 
+    background-color: #ffe6e6;
+    font-weight: bold;
+}
